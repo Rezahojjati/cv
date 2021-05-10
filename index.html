@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reza Hojjati's Personal Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,800&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="navbar">
+
+    <div class="container-fluid">
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">Reza Hojjati</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"><span class="nav-span">01.</span>Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><span class="nav-span">02.</span>Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><span class="nav-span">03.</span>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Rezahojjati"><span class="nav-span">04.</span>Github</a>
+            </li>
+          </ul>
+
+      </nav>
+    </div>
+
+  </section>
+
+  <section id="title">
+
+    <div class="container-fluid" style="margin-bottom:20px;">
+
+      <div class="row">
+        <div class="col-lg">
+          <h1 class="opener">Hi, my name is </h1>
+          <h2 class="opener-name">Reza Hojjati.</h2>
+          <h2 class="opener-desc">I build web applications.</h2>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <p class="desc">I'm a Canadian Web Developer based in Ho Chi Minh City who specializes in building (and occasionally designing) exceptional digital experiences. I am looking to become a full-stack developer in the coming years.</p>
+      </div>
+    </div>
+    <a class="email-link" href="mailto:reza_hojjati@yahoo.com">Get In Touch</a>
+
+
+  </section>
+  <section id="skills">
+    <div class="container-fluid">
+      <h2 class="skills-heading">My Skills</h2>
+      <div class="row skill-row">
+        <div class="col-sm-6">
+          <h3>HTML / CSS / Javascript / React / Bootstrap</h3>
+          <p>Proficient at front-end development using HTML5, CSS3, Javascript, React and Bootstrap.</p>
+        </div>
+        <div class="col-sm-6">
+          <h3>NODE.js / MongoDB / Authentication & Security</h3>
+          <p>A solid understanding at back-end development using NODE.js, authentication & security, and creating and using databases (SQL/NoSQL).</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="skills-heading">My Projects</h2>
+      <div id="slide-show" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner projects">
+          <div class="carousel-item active">
+            <h2>A website which allows users to register and then post anonymous secrets.</h2>
+            <img class="projects-img" src="images/secrets.png" alt="dog-profile">
+            <em>Node.js(Express)/Bootstrap/MongoDB/EJS/Passport+Google O-auth</em>
+          </div>
+          <div class="carousel-item">
+            <h2>A personal React web application which allows me to see the current weather in my city, along with the latest world news from the New York Times API.</h2>
+            <img class="projects-img" src="images/personalized-app.png" alt="lady-profile">
+            <em>React/New York Times and Open Weather Map APIs</em>
+          </div>
+          <div class="carousel-item">
+            <h2>A web application game where the users have to remember the order of the colors that they have clicked already
+plus the new random color that lights up.</h2>
+            <img class="projects-img" src="images/simon.png" alt="lady-profile">
+            <em>HTML/CSS/Javascript/Node.js/Express</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide-show" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide-show" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+  </section>
+
+  <section id="about">
+    <h2 class="skills-heading">About Me</h2>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg">
+          <h4 class="about">I am a self-taught 27 year old Canadian developer who has taken an extensive interest into web development the past 4 months with Udemy. I have made several projects as well which showcase my capabilities and new passion for coding. My long-term goal is to eventually become a senior full-stack developer and to continue to learn every day in my new career trajectory.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

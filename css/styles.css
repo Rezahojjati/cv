@@ -1,0 +1,131 @@
+
+.nav-span{
+  color: #bfa16a;
+}
+
+.opener{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+  color: #64ffda;
+}
+
+.opener-name{
+  font-family: 'Montserrat', sans-serif;
+  color: #ccd6f6;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.opener-desc{
+  font-family: 'Montserrat', sans-serif;
+  color: #8892b0;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.desc{
+  color: #8892b0;
+}
+
+.container-fluid{
+  padding: 1% 20%;
+}
+
+.email-link{
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  padding: 1.25rem 1.75rem;
+  text-decoration: none;
+  border-radius: 8%;
+}
+
+.skill-row{
+  font-family: 'Source Code Pro', monospace;
+  color: #64ffda;
+  line-height: 3;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+.skills-heading{
+  font-family: 'Montserrat', sans-serif;
+  color: #8892b0;
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.projects-img{
+  width: 40%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.projects{
+  font-family: 'Source Code Pro', monospace;
+  color: #64ffda;
+  line-height: 3;
+}
+
+.about{
+  font-family: 'Source Code Pro', monospace;
+  color: #64ffda;
+  line-height: 3;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#navbar{
+  background-color: #233554;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#title{
+  background-color: #233554;
+  padding-top: 50px;
+  padding-left: 120px;
+  height: 570px;
+}
+
+#skills{
+  background-color: #233554;
+}
+#projects{
+  background-color: #233554;
+}
+#about{
+  background-color: #233554;
+}
+
+@media (max-width: 544px) {
+
+  #title{
+    background-color: #233554;
+    padding-top: 50px;
+    height: 800px;
+  }
+
+  .opener-desc{
+    font-family: 'Montserrat', sans-serif;
+    color: #8892b0;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .skill-row{
+    font-family: 'Source Code Pro', monospace;
+    color: #64ffda;
+    line-height: 4;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px
+  }
+
+  #skills{
+    background-color: #233554;
+  }
+}
