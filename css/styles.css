@@ -103,10 +103,16 @@
 
 @media (max-width: 544px) {
 
+  body{
+    width: 500px;
+    padding: 2%;
+  }
+
   #title{
     background-color: #233554;
     padding-top: 50px;
-    height: 800px;
+    height: 50%;
+    padding-bottom: 8%;
   }
 
   .opener-desc{
@@ -128,4 +134,6 @@
   #skills{
     background-color: #233554;
   }
+
+  
 }
